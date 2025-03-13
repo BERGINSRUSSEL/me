@@ -14,7 +14,6 @@ function setActiveStyleSheet(title) {
 
     }
 
-
 }
 
 function getActiveStyleSheet() {

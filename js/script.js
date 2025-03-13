@@ -51,14 +51,13 @@
 
 
     // Update window position
-    
-    
-	  if (!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+	
+	
+    if (!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
             $('#main-nav.tabbed > ul > li, .project-nav li a').on('click', function() {
         $.smoothScroll('+=' + $(window).height());
     });
     }
-
 
 
     // Testimonials caroussel
@@ -234,7 +233,7 @@
     // Style toggle
 
 
-    $('.toggle, .close-styler').click(function(e) {
+    $('.toggle,.close-styler').click(function(e) {
         e.preventDefault();
         var styler = $('.styler');
         console.log(styler.css('left'));
